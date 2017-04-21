@@ -38,7 +38,7 @@ Slack API: [api.slack.com](//api.slack.com/)
 
 You should also check out [wb2k].
 
-[badge-build]: //travis-ci.org/solus-impar/slack-events.svg?branch=master
+[badge-build]: https://travis-ci.org/solus-impar/slack-events.svg?branch=master
 [wb2k]: //github.com/reillysiemens/wb2k/
 [virtualenv]: //virtualenv.pypa.io/en/stable/
 [contribution guidelines]: //github.com/solus-impar/slack-events/blob/master/CONTRIBUTING.md
