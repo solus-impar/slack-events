@@ -1,0 +1,9 @@
+slack-events
+============
+
+.. toctree::
+   :maxdepth: 4
+
+   events
+   setup
+   slack_events

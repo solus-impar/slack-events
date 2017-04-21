@@ -1,0 +1,287 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>events package &mdash; slack-events 0.7.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="slack-events 0.7.0 documentation" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> slack-events
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.7.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="README.html">slack-events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CONTRIBUTING.html">Contributing to slack-events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CONTRIBUTORS.html">Contributors to slack-events</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">slack-events</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>events package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/events.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="events-package">
+<h1>events package<a class="headerlink" href="#events-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-events.callables">
+<span id="events-callables-module"></span><h2>events.callables module<a class="headerlink" href="#module-events.callables" title="Permalink to this headline">¶</a></h2>
+<p>events.callables module: plugins for slack-events.</p>
+<p>Below is some of the requirements for plugins.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param None:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">returns:</th><td class="field-body"><dl class="first docutils">
+<dt><cite>message</cite> should have information about</dt>
+<dd><p class="first last">the event formatted for posting to slack. <cite>channel</cite> can be empty
+for #general.</p>
+</dd>
+</dl>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body"><p class="first">message (str), channel (str)</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">raises:</th><td class="field-body"><p class="first last">Not required, but use when needed.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="function">
+<dt id="events.callables.wwucs_events">
+<code class="descclassname">events.callables.</code><code class="descname">wwucs_events</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#events.callables.wwucs_events" title="Permalink to this definition">¶</a></dt>
+<dd><p>WWUCS events posted to cse.wwu.edu/computer-science.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-events.utils">
+<span id="events-utils-module"></span><h2>events.utils module<a class="headerlink" href="#module-events.utils" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="events.utils.events">
+<code class="descclassname">events.utils.</code><code class="descname">events</code><span class="sig-paren">(</span><em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#events.utils.events" title="Permalink to this definition">¶</a></dt>
+<dd><p>Identify a callable as events.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="events.utils.fetch_json">
+<code class="descclassname">events.utils.</code><code class="descname">fetch_json</code><span class="sig-paren">(</span><em>url</em><span class="sig-paren">)</span><a class="headerlink" href="#events.utils.fetch_json" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fetch data from a URL and attempt to parse it as JSON.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="events.utils.uncamel">
+<code class="descclassname">events.utils.</code><code class="descname">uncamel</code><span class="sig-paren">(</span><em>s</em><span class="sig-paren">)</span><a class="headerlink" href="#events.utils.uncamel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert CamelCase class names into lower_snake_case.
+Taken from <a class="reference external" href="http://stackoverflow.com/a/1176023/3288364">http://stackoverflow.com/a/1176023/3288364</a></p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-events">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-events" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Mike Canoy.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.7.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

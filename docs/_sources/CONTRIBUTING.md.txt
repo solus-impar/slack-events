@@ -1,11 +1,13 @@
 # Contributing to slack-events
 
-`slack-events` keeps plugins in the [`events.callables`][events callables] module. If
-you'd like to contribute an event source of your own you can submit a pull
-request to this repository adding a callable object to that module. Events
-callables **MUST** conform to the following specification:
+`slack-events` keeps plugins in the
+[`events.callables`](https://github.com/solus-impar/slack-events/blob/master/events/callables.py)
+module. If you'd like to contribute an event source of your own you can submit
+a pull request to this repository adding a callable object to that module.
+Events callables **MUST** conform to the following specification:
 
-1. Be decorated with the `@events` decorator from [`events.utils`][events utils].
+1. Be decorated with the `@events` decorator from
+[`events.utils`](https://github.com/solus-impar/slack-events/blob/master/events/utils.py).
 2. Take no arguments.
 3. Return an `events` string and a `channel` string as a tuple.
   - `events` and `channel` _can_ be the empty string.
@@ -47,6 +49,3 @@ and the above class would show up like
 
 Therefore, it behooves contributors to pick descriptive names for new event
 callables.
-
-[event callables]: https://github.com/solus-impar/slack-events/blob/master/events/callables.py
-[event utils]: https://github.com/solus-impar/slack-events/blob/master/events/utils.py

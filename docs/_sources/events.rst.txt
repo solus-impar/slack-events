@@ -1,0 +1,30 @@
+events package
+==============
+
+Submodules
+----------
+
+events\.callables module
+------------------------
+
+.. automodule:: events.callables
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+events\.utils module
+--------------------
+
+.. automodule:: events.utils
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: events
+    :members:
+    :undoc-members:
+    :show-inheritance:

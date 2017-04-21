@@ -1,0 +1,7 @@
+slack\_events module
+====================
+
+.. automodule:: slack_events
+    :members:
+    :undoc-members:
+    :show-inheritance:
