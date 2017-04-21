@@ -1,4 +1,4 @@
-# Contributors to slack-topics
+# Contributors to slack-events
 
-- [Mike Canoy](http:/mikecanoy.me)
-- [Reilly Tucker Siemens](https://tuckersiemens.com)
+- [Mike Canoy](//mikecanoy.net)
+- [Reilly Tucker Siemens](//tuckersiemens.com)
