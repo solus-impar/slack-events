@@ -17,7 +17,7 @@ from datetime import date
 import re
 from bs4 import BeautifulSoup
 import requests
-from events.utils import events
+from slack_events.events.utils import events
 
 
 @events

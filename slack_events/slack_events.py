@@ -5,7 +5,7 @@ import sys
 from bs4 import BeautifulSoup
 import requests
 from slackclient import SlackClient
-import events.callables as ec
+import slack_events.events.callables as ec
 
 
 def find_id(channel, bot):

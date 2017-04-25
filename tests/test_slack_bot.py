@@ -3,7 +3,7 @@ import sys
 import random
 import requests
 from slackclient import SlackClient
-import events.callables as ec
+import slack_events.events.callables as ec
 
 
 def find_id(channel, bot):

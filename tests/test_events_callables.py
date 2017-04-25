@@ -1,4 +1,4 @@
-import events.callables as ec
+import slack_events.events.callables as ec
 
 
 def test_events_callables():

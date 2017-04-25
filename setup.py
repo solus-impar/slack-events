@@ -27,7 +27,7 @@ setup(
     py_modules=['slack-events', 'events'],
     entry_points={
         'console_scripts': [
-            'slack-events=slack-events:main',
+            'slack-events=slack_events.slack_events:main',
         ]
     },
 )
