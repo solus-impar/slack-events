@@ -10,7 +10,7 @@ requirements = [str(ir.req) for ir in install_requirements]
 
 setup(
     name='slack-events',
-    version='0.7.0',
+    version='0.7.1',
     description='A python3 slack events bot.',
     author='Mike Canoy',
     author_email='canoym@wwu.edu',
